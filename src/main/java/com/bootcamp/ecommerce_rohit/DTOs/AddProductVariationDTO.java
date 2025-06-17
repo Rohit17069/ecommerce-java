@@ -15,6 +15,7 @@ import java.util.Map;
 public class AddProductVariationDTO {
 @NotBlank(message = "product id can't be null or blank")
 String productId;
+    
     @NotBlank(message = "metadata can't be null or blank")
     String metadata;
     @NotNull(message = "primary image can't be null")
